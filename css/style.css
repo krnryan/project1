@@ -135,45 +135,45 @@ li {
 	list-style-type: none;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	padding: 15px 20px 15px 10px;
-	background: white;
 	opacity: 0.7;
 	border-right: 8px solid #f1b521;
 	font-weight: bold;
+	padding-right: 40px;
 }
 
-li:hover{
-	background: none;
-	color: #f1b521;
-}
-
-/*.onthepage {
-	background: none;
-	color: #f1b521;
-}*/
-
-.li1 {
+#nav-index {
 	background: url('../img/lambo1.gif') no-repeat;
-	bakcground-size: cover;
-	background-position: center;
 }
 
-.li2 {
+#nav-about {
 	background: url('../img/lambo3.gif') no-repeat;
-	bakcground-size: cover;
-	background-position: center;
 }
 
-.li3 {
+#nav-contact {
 	background: url('../img/lambo2.gif') no-repeat;
-	bakcground-size: cover;
-	background-position: center right;
 }
 
-#navigation a {
+div.nav ul li {
+	background-size: cover !important;
+	background-position: top !important;
+}
+
+div.nav ul li:hover{
+	background: none !important;
+}
+
+div.nav ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
 	text-decoration: none;
 	color: black;
 	font-size: 30px;
+	padding: 15px 20px 15px 10px;
+}
+
+div.nav ul li a:hover {
+	color: #f1b521 !important;
 }
 
 #footer-container {
