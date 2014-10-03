@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>THI WUZ HERE - <?php echo $title; ?></title>
+		<title><?php echo $title; ?></title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium Web">
 	</head>
