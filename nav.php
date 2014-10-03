@@ -17,9 +17,9 @@
 	<div class="logo"></div>
 	<div class="nav">
 	<ul>
-		<a href="index.php"><li class="li1"><?php echo $menu1; ?></li></a>
-		<a href="about.php"><li class="li2"><?php echo $menu2; ?></li></a>
-		<a href="contact.php"><li class="li3"><?php echo $menu3; ?></li></a>
+		<li class="li1"><a href="index.php"></a><?php echo $menu1; ?></li>
+		<li class="li2"><a href="about.php"></a><?php echo $menu2; ?></li>
+		<li class="li3"><a href="contact.php"></a><?php echo $menu3; ?></li>
 	</ul>
 	</div>
 </div>
