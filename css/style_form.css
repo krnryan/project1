@@ -1,0 +1,41 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Titillium Web";
+}
+#mega {
+	width: 1000px;
+	margin: 0 auto;
+}
+h1 {
+	background-color: #f1b521;
+	text-align: center;
+	padding: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer {
+	background-color: black;
+	text-align: center;
+	padding: 10px 0;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	float: left;
+}
+#left {
+	float: left;
+	margin-bottom: 20px;
+}
+#right {
+	float: right;
+	margin-bottom: 20px;
+}
