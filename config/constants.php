@@ -3,7 +3,7 @@
 	//begin - constants for database connection
 	define("DB_HOST", "localhost");
 	define("DB_USER", "root");
-	define("DB_PASS", "root");
+	define("DB_PASS", "");
 	//end - constants for database connection
 	
 	//begin - constants for databases and tables
